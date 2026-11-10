@@ -8,4 +8,4 @@ services:
       - "8088:8088"
     volumes:
       - ./datos:/workspace
-    command: ["/bin/bash", "-c", "sudo /usr/sbin/sshd && /opt/hadoop/sbin/start-dfs.sh && /opt/hadoop/sbin/start-yarn.sh && tail -f /dev/null"]
+    command: ["sleep", "infinity"]
