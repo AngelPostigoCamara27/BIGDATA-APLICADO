@@ -1,0 +1,21 @@
+2026-11-12 19:03:22,573 - INFO - Iniciando validación criptográfica (Fase 1)...
+2026-11-12 19:03:22,578 - ERROR - No se encuentra el manifiesto de control.
+2026-11-12 19:03:22,578 - INFO - Validación finalizada.
+2026-11-12 19:03:32,967 - INFO - Iniciando pipeline de saneamiento (Fase 2 y 3)...
+2026-11-12 19:03:32,968 - ERROR - No hay archivos verificados en staging.
+2026-11-12 19:09:07,841 - INFO - Iniciando validación criptográfica (Fase 1)...
+2026-11-12 19:09:07,868 - INFO - INTEGRIDAD OK: transacciones_tienda_este.csv movido a staging/verified/
+2026-11-12 19:09:07,875 - INFO - INTEGRIDAD OK: transacciones_tienda_norte.csv movido a staging/verified/
+2026-11-12 19:09:07,882 - WARNING - CORRUPCIÓN DETECTADA: transacciones_tienda_sur.csv movido a quarantine/tampered/
+2026-11-12 19:09:10,190 - INFO - Iniciando pipeline de saneamiento (Fase 2 y 3)...
+2026-11-12 19:09:10,193 - INFO - Dataset cargado. Registros iniciales: 100
+2026-11-12 19:09:10,235 - INFO - Limpieza finalizada. Registros válidos: 90, Registros en cuarentena: 10
+2026-11-12 19:10:43,379 - INFO - Iniciando validación criptográfica (Fase 1)...
+2026-11-12 19:10:43,381 - INFO - INTEGRIDAD OK: transacciones_tienda_este.csv movido a staging/verified/
+2026-11-12 19:10:43,382 - INFO - INTEGRIDAD OK: transacciones_tienda_norte.csv movido a staging/verified/
+2026-11-12 19:10:43,383 - WARNING - CORRUPCIÓN DETECTADA: transacciones_tienda_sur.csv movido a quarantine/tampered/
+2026-11-12 19:10:43,383 - INFO - Validación finalizada.
+2026-11-12 19:10:45,639 - INFO - Iniciando pipeline de saneamiento (Fase 2 y 3)...
+2026-11-12 19:10:45,643 - INFO - Dataset cargado. Registros iniciales: 100
+2026-11-12 19:10:45,650 - INFO - Limpieza finalizada. Registros válidos: 90, Registros en cuarentena: 10
+2026-11-12 19:10:45,660 - INFO - Métricas de perfilado exportadas a JSON.
